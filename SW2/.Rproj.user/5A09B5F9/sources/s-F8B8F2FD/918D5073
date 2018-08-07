@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1533625177366.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3053466339",
+    "id" : "918D5073",
+    "lastKnownWriteTime" : 1533628578,
+    "last_content_update" : -2147483648,
+    "path" : "~/CPE406/Mideterm/SW-MIDTERM.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "9,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
