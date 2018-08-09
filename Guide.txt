@@ -1,0 +1,42 @@
+Extract the subset of rows of the data frame where Ozone values are above
+25 and Temp values are above 70. What is the mean of Wind in this subset?
+
+
+
+
+subset_data <- function(data,min,max){
+x<- ifelse (data$Ozone>min & data$Temp>max,data$Wind NA)
+mean(x,na.rm = TRUE)
+}
+subset_data(data,25,70)
+
+
+MeanFunction <- functio (data, Month, Day){
+y <- 0
+for (row in 1:nrow(data)){
+y[row] <- ifelse(data[row,5]==Month & data[row,6]==Day,data[row,4],NA)
+}
+mean(y,na.rm = TRUE)
+}
+MeanFunction(data,9,8)
+
+
+#1
+values <- function(data,neil,almalvez){
+  data[neil,almalvez]
+}
+values (data,82,"Wind")
+
+#2
+values <- function(data,almalvez){
+  sum(is.na(data[,almalvez]))
+}
+values(data,"Day")
+
+#3
+values <- function(data,data1,data2,data3){
+    x<- data(data1:data2,data3)
+    mean(x,na.rm = TRUE)
+}
+
+values (data,20,70,4)
