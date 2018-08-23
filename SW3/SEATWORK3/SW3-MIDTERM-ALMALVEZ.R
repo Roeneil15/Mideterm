@@ -1,20 +1,20 @@
 data <- read.csv("C:/Users/RM A-225/Documents/Mideterm/SW3/SEATWORK3/midetrmseatwork_data.csv")
 
 #1
-values <- function(data,neil,almalvez){
+Roeneil <- function(data,neil,almalvez){
   data[neil,almalvez]
 }
-values (data,82,"Wind")
+Roeneil(data,40,"Ozone")
 
 #2
-values <- function(data,almalvez){
+Esperanza <- function(data,almalvez){
   sum(is.na(data[,almalvez]))
 }
-values(data,"Day")
+Esperanza(data,"Ozone")
 
 #3
-MeanFunction <- function(data,x,y,z){
-    Neil<- data[x:y,z]
+Almalvez <- function(data,x,y,z){
+    Neil <- data[x:y,z]
     mean(Neil,na.rm = TRUE)
 }
-MeanFunction(data,20,70,4)
+Almalvez(data,20,50,3)
